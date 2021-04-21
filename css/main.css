@@ -1,0 +1,89 @@
+html {
+  font: 100%/1.15 sans-serif;
+}
+
+@media (min-width: 30em) {
+
+  body {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+  }
+
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: 0.8em;
+  line-height: 1.35;
+  padding: 1rem;
+}
+
+/* Breakpoint defined in Grid layout */
+
+.grid-image {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*Source-https://www.w3schools.com/css/css_link.asp*/
+.currentLink {
+  color: hotpink !important;
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+/*Source-https://stackoverflow.com/questions/15856556/image-captions-on-hover*/
+a {
+  position: relative
+}
+
+a span {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background: rgba(255,255,255,255);
+}
+
+a:hover span {
+  display: block
+}
+
+/* selected link */
+a:active {
+  color: hotpink;
+  text-decoration: none;
+}
