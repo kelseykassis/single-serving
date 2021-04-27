@@ -1,5 +1,6 @@
 html {
-  font: 100%/1.15 sans-serif;
+  font: 100%/1.15;
+  font-family: Consolas, monaco, monospace;
 }
 
 @media (min-width: 30em) {
@@ -10,6 +11,14 @@ html {
     gap: 1rem;
   }
 
+}
+
+h1 {
+  color: #ff4500;
+}
+
+p {
+  color: #ff4500;
 }
 
 img {
