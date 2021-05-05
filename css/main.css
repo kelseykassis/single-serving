@@ -4,21 +4,29 @@ html {
 }
 
 @media (min-width: 30em) {
-
   body {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    gap: 1rem;
+    gap: 5rem;
   }
-
 }
 
 h1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50rem;
   color: #ff4500;
 }
 
 p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50rem;
   color: #ff4500;
+}
+
+.bold-text {
+  font-weight: bold;
 }
 
 img {
@@ -39,14 +47,13 @@ figcaption {
 }
 
 /* Breakpoint defined in Grid layout */
-
 .grid-image {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 /*Source-https://www.w3schools.com/css/css_link.asp*/
@@ -84,7 +91,7 @@ a span {
   bottom: 0;
   width: 100%;
   padding: 10px;
-  background: rgba(255,255,255,255);
+  background: rgba(255, 255, 255, 255);
 }
 
 a:hover span {
