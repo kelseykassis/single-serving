@@ -3,7 +3,7 @@ html {
   font-family: Consolas, monaco, monospace;
 }
 
-@media (min-width: 30em) {
+@media (min-width: 35em) {
   body {
     display: grid;
     grid-template-columns: 1fr 3fr;
