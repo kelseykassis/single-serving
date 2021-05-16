@@ -91,7 +91,7 @@ a span {
   bottom: 0;
   width: 100%;
   padding: 10px;
-  background: rgba(255, 255, 255, 255);
+  background: rgba(255, 255, 255, 0.3);
 }
 
 a:hover span {
