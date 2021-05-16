@@ -37,7 +37,11 @@ img {
 }
 
 figure {
-  margin: 0;
+  text-align:center;
+width:100%;
+display:block;
+margin:auto;
+
 }
 
 figcaption {
@@ -91,7 +95,7 @@ a span {
   bottom: 0;
   width: 100%;
   padding: 10px;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.9);
 }
 
 a:hover span {
